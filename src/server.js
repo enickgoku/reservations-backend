@@ -15,7 +15,7 @@ knex.migrate
       })
       .catch((error) => {
         console.error(error);
-        knex.destoy();
+        knex.destroy();
       });
   })
   .catch((error) => {
